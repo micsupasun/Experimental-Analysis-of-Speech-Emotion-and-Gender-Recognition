@@ -2,6 +2,7 @@
 
 The file below has not been updated yet because it is awaiting publication, after which others can use the code and further develop it.
 The file below is a research work related to Speech Emotion Recognition, consisting of the following:
+
 ### 1. Preprocessed Data
 
 - **clean_data_only_emotion.ipynb**: A notebook file that shows the steps of cleaning audio data from all four datasets, RAVDESS, CREMA-D, SAVEE, and TESS, for predicting only emotions. The data is arranged in a table format with metadata (emotion, sex_type, name_file) ready to be used in the model-building process.
@@ -26,7 +27,13 @@ The file below is a research work related to Speech Emotion Recognition, consist
 
 - **diagram.png**: Diagram showing the architecture of the Convolutional Neural Network model used in the research, with an overview of how to combine it with Ensemble Learning techniques via Soft Voting and Hard Voting.
 
-- **table1–table4.png**: Comparative table of the accuracy of 19 models in classifying emotions from sounds for each dataset: RAVDESS, CREMA-D, SAVEE, and TESS
+- **table1.png**: Comparative table of the accuracy of 19 models in classifying emotions from sounds for RAVDESS dataset.
+
+- **table2.png**: Comparative table of the accuracy of 19 models in classifying emotions from sounds for CREMA-D dataset.
+
+- **table3.png**: Comparative table of the accuracy of 19 models in classifying emotions from sounds for SAVEE dataset.
+
+- **table4.png**: Comparative table of the accuracy of 19 models in classifying emotions from sounds for TESS dataset.
 
 - **table5.png**: Comparative table of the accuracy of 19 models in classifying emotions with gender from the RAVDESS and CREMA-D datasets, showing the results separated by emotion and gender in detail
 
